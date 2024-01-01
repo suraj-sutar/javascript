@@ -5,6 +5,7 @@ console.log("");
 
 console.log("First Function With No Arguments And No Return Type");
 console.log("");
+
 function firstFunc() {
   console.log(
     "This log For First Function With No Argumant And No Return Type."
@@ -19,6 +20,7 @@ console.log("");
 
 console.log("Second Function With No Arguments And No Return Type");
 console.log("");
+
 function noArgu() {
   console.log(
     "This log For Second Function With No Argumant And No Return Type."
