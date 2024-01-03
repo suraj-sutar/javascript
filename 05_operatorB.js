@@ -38,6 +38,10 @@ function checkLengthType(str) {
   return lengthType;
 }
 
+// var printString = "Java";
+
+// console.log(`${printString} length is ${checkLengthType(printString)} `);
+
 console.log(`javaScript Length is ${checkLengthType("JavaScrip")}`);
 console.log(`Developer Length is ${checkLengthType("Developer")}`);
 console.log(`Google Length is ${checkLengthType("Google")}`);
