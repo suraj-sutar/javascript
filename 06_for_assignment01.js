@@ -42,7 +42,7 @@ console.log(
 var num = 5;
 for (var i = 1; i <= 10; i++) {
   //2
-  console.log(num * i); //2
+  console.log(num * i); //5 * 1
 }
 
 console.log(
