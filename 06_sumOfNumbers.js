@@ -32,12 +32,38 @@
 // }
 // console.log(`Vowels count is: ${vowelsCount}`);
 
-function sumOfCube() {
-  var sum = 0;
+function sumOfNum() {
+  let sum = 0;
   for (let index = 1; index <= 5; index++) {
-    var cubeOfIndex = index * index * index;
-    sum = sum + cubeOfIndex;
+    sum = sum + index;
   }
-  console.log(`Cube Of Index 1 to 5 is : ${sum}`);
+  console.log(sum);
 }
-sumOfCube();
+sumOfNum();
+
+// function countVowels(str) {
+//   let vowelCount = 0;
+//   for (let index = 0; index <= str.length; index++) {
+//     let char = str.charAt(index).toLowerCase();
+//     if (
+//       char == "a" ||
+//       char == "e" ||
+//       char == "i" ||
+//       char == "o" ||
+//       char == "u"
+//     ) {
+//       vowelCount = vowelCount + 1;
+//     }
+//   }
+//   console.log(vowelCount);
+// }
+// countVowels("Developer");
+
+function reverseString(str) {
+  var newString = "";
+  for (let index = str.length - 1; index >= 0; index--) {
+    newString = newString + str.charAt(index);
+  }
+  console.log(newString);
+}
+reverseString("Developer");
