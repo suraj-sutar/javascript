@@ -5,6 +5,7 @@ console.log(
 );
 
 console.log(`Total Elements Of Given Array: ${arrayNumbers}`);
+
 console.log(`Length Of Given Array is: ${arrayNumbers.length}`);
 
 console.log(
@@ -120,6 +121,7 @@ console.log(
   `-------------------------------Step 13-------------------------------`
 );
 
+// syntax: splice(Index Position, number Of element, Data )
 console.log(
   `Delete 3 Elements Starting From Index 4 : ${arrayNumbers.splice(4, 3)}`
 );
