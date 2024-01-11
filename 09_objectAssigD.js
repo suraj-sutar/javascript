@@ -1,20 +1,20 @@
 let professor = {
-    name: "P.S.Ghavane",
-    age: 49,
-    subject: "Cloud Computing",
-    address: "Pune",
-    designation: "HOD",
-    degrees: {
-        Engineering: "CSC",
-        PHD: "Adv Computing",
-        MCA: "Computer App Development",
-        MBA: "MArketing",
-    },
-    certicates: [
-        "Hacker Rank Participation",
-        "Certificates in IFE course",
-        "Certificate inAdv Programming",
-    ],
+  name: "P.S.Ghavane",
+  age: 49,
+  subject: "Cloud Computing",
+  address: "Pune",
+  designation: "HOD",
+  degrees: {
+    Engineering: "CSC",
+    PHD: "Adv Computing",
+    MCA: "Computer App Development",
+    MBA: "MArketing",
+  },
+  certicates: [
+    "Hacker Rank Participation",
+    "Certificates in IFE course",
+    "Certificate in Adv Programming",
+  ],
 };
 console.log(`----------------------------Step 1----------------------------`);
 console.log(`Details About Professor:`);
@@ -46,7 +46,7 @@ console.log(professor.certicates);
 
 console.log(`----------------------------Step 7----------------------------`);
 console.log(`Print Last Elemnet Of The Array : `);
-console.log(professor.certicates[3]);
+console.log(professor.certicates[professor.certicates.length - 1]);
 
 console.log(`----------------------------Step 8----------------------------`);
 console.log(`Complete Object:`);
@@ -54,6 +54,13 @@ console.log(professor);
 
 console.log(`----------------------------Step 9----------------------------`);
 console.log(`Traverse Certificate Array :`);
-for (const element of professor.certicates) {
+// for (const element of professor.certicates) {
+//   console.log(element);
+// }
+
+for (const Index in professor.certicates) {
+  if (Object.hasOwnProperty.call(professor.certicates, Index)) {
+    const element = professor.certicates[Index];
     console.log(element);
+  }
 }
