@@ -44,10 +44,10 @@ let arrayNum = [11, 22, 33, 44, 55, 66, 77];
 // console.log(`Vowels count is: ${count}`);
 
 //Join Method
-// let arrayOfFriends = ["Jenny", "Elon", "Bill"];
-// const result = arrayOfFriends.join(",");
-// console.log(typeof result);
-// console.log(result);
+let arrayOfFriends = ["Jenny", "Elon", "Bill"];
+const result = arrayOfFriends.join(",");
+console.log(typeof result);
+console.log(result);
 
 // //Reverse The String Using array methods
 // arrayOfFriends.reverse();
