@@ -20,9 +20,9 @@ class User {}
 
 //prototype Operator
 const elon = new Student(33, "Elon", 60);
-
-Student.prototype.country = "India";
-console.log(elon.name);
-console.log(elon.country);
-console.log(stew.country);
-console.log(jenny.country);
+console.log(elon instanceof Student);
+// Student.prototype.country = "India";
+// console.log(elon.name);
+// console.log(elon.country);
+// console.log(stew.country);
+// console.log(jenny.country);
