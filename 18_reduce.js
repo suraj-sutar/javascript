@@ -33,3 +33,10 @@ const totalMarks = arrayStudents.reduce((runningTotal, element) => {
   return runningTotal + element.marks;
 }, 0);
 console.log(totalMarks);
+
+// const totalemp = arrayStudents.map((element) => {
+//   return element.length;
+// });
+// console.log(totalemp.length);
+
+// const average =
