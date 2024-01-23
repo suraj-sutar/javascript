@@ -3,6 +3,7 @@ const sum = arrayNum.reduce((runningTotal, value) => {
   return runningTotal * value;
 });
 console.log(sum);
+
 class Student {
   // Data member or properties
   // Constructor
